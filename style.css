@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     margin: auto;
     width: 700px;
-    background-color: #1d0c20;
+    background-image: linear-gradient(0deg, #651f70, #1d0c20);
     border-radius: 10px;
     overflow: hidden;
     padding: 20px 30px 10px 30px;
@@ -43,7 +43,7 @@ body{
     height: 500px;
     padding: 20px;
     color: #FFF;
-    background-color: #641f70;
+    background-image: linear-gradient(180deg, #651f71, #1e0c21);
     border-radius: 10px;
 }
 
@@ -72,10 +72,17 @@ input:focus{
     box-shadow: 0 0 20px 2px #aa21ae;
 }
 
+.border-gradiant{
+   background-image: linear-gradient(180deg, #2638dc, #342988);
+   border-radius: 10px;
+   padding: 10px;
+    
+}
+
 .images{
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 30px;
 }
 
 .images .image-1 div,
@@ -83,14 +90,11 @@ input:focus{
 .images .image-3 div{
     font-size: 23px;
     color: #FFF;
-    margin-top: 25px;
+    padding-top: 5px;
 }
 .image-1, .image-2, .image-3{
-    background-color: #3c5aee;
+    background-image: linear-gradient(180deg, #3c5bee, #74cfff);
     text-align: center;
-    border: 10px solid #2738dc;
-    border-radius: 10px;
-
 }
 
 
