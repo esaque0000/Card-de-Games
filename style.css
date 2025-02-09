@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     margin: auto;
     width: 700px;
-    background-color: #1e0d20;
+    background-color: #1d0c20;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px 30px 10px 30px;
@@ -28,7 +28,7 @@ body{
 }
 
 .title-1{
-    color: #fecc29;
+    color: #fecd23;
     font-size: 25px;
     font-weight: 700;
     padding-bottom: 40px;
@@ -43,7 +43,7 @@ body{
     height: 500px;
     padding: 20px;
     color: #FFF;
-    background-color: #631d66;
+    background-color: #641f70;
     border-radius: 10px;
 }
 
@@ -86,9 +86,9 @@ input:focus{
     margin-top: 25px;
 }
 .image-1, .image-2, .image-3{
-    background-color: #3d5dee;
+    background-color: #3c5aee;
     text-align: center;
-    border: 10px solid #2a33bc;
+    border: 10px solid #2738dc;
     border-radius: 10px;
 
 }
@@ -96,7 +96,7 @@ input:focus{
 
 button{
     color: #FFF;
-    background-color: #000;
+    background-color: #1d0c20;
     border: none;
     margin: 10px;
     font-size: 15px;
