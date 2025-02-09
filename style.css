@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
+    max-width: 90%;
     width: 700px;
     background-image: linear-gradient(0deg, #651f70, #1d0c20);
     border-radius: 10px;
@@ -35,12 +36,12 @@ body{
     text-transform: uppercase;
 }
 
-.body{
+.main-body{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 500px;
+    height: auto;
     padding: 20px;
     color: #FFF;
     background-image: linear-gradient(180deg, #651f71, #1e0c21);
@@ -93,8 +94,10 @@ input:focus{
     padding-top: 5px;
 }
 .image-1, .image-2, .image-3{
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(180deg, #3c5bee, #74cfff);
-    text-align: center;
+    align-items: center;
 }
 
 
@@ -102,7 +105,7 @@ button{
     color: #FFF;
     background-color: #1d0c20;
     border: none;
-    margin: 10px;
+    margin: 3px;
     font-size: 15px;
     padding: 12px 25px;
     border-radius: 5px;
@@ -120,3 +123,32 @@ button:hover{
     color: #FFF;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 755px){
+
+    
+    .container{
+       
+        width: 330px;
+        text-align: center;
+
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .main-body{
+        height: auto;
+
+    }
+    
+    .images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+}
+
